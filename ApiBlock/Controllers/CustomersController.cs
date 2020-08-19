@@ -85,8 +85,9 @@ namespace ApiBlock.Controllers
         // GET: Customers
         public ActionResult Index()
         {
-            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
-            return View(customers);
+            //var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+            //return View(customers);
+            return View();
             #region
             //var movie = new Movie() { Name = "Shrek!" };
             //var customers = new List<Customer>
