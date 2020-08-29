@@ -56,7 +56,7 @@ namespace ApiBlock
 
             app.UseFacebookAuthentication(
                appId: "313230103426237",
-               appSecret: "8f91453874e5f2ff606a097637ec2d89");
+               appSecret: "");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
