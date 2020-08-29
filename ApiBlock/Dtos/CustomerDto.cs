@@ -18,6 +18,8 @@ namespace ApiBlock.Dtos
         public bool IsSubcribeToNewsletter { get; set; }
        
         public byte MembershipTypeId { get; set; }
+
+        public MembershipTypeDto MembershipType { get; set; }
         
         //[Min18YearsIfAMember]
         public DateTime? Birthday { get; set; }
